@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <style>
+        .body{
+            background-color: black;
+        }
+        .b1{
+            background-image: url(1.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%;
+            height: 700px;
+
+            .dropbtn {
+                background-color: red;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+              }
+              
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              }
+              
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              .dropdown-content a {
+                color: red;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+              
+              .dropdown-content a:hover {background-color: black;}
+              
+              .dropdown:hover .dropdown-content {display: block;}
+              
+              .dropdown:hover .dropbtn {background-color: black;}
+        }
+
+        .b2{
+           background-image:url(2.jpg);
+           background-size: cover;
+           background-attachment: fixed;
+           background-color: black;
+            width: 100%;
+            height: 700px;
+            color: white;
+        }
+        .b3{
+            background-image: url(3.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: black;
+            width: 100%;
+            height: 700px; 
+        }
+        .gap{
+            height: 300px;
+            background-color: black;
+        }
+        .nav{
+            background-color: black;
+        }
+        .nav li{
+            display: inline-block;
+            padding: 14px 16px;
+            color: white;
+        }
+        .nav li:hover{
+            background-color: white;
+            color: black;
+        }
+        .user{
+            position: absolute;
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 50px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        .pass{
+          position: absolute;
+          width: 300px;
+          margin-left: 100px;
+          margin-top: 130px;
+          height: 30px;
+          border-radius: 20px;
+        }
+        .btn{
+          position: absolute;
+          margin-top: 200px;
+          margin-left: 150px;
+          width: 200px;
+          height: 20px;
+          border-radius: 30px;
+          border: none;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="b1">
+         <ul class="nav">
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>know more</li>
+         </ul>
+         <div class="dropdown">
+            <button class="dropbtn">speed search</button>
+            <div class="dropdown-content">
+              <a href="car.html">car</a>
+              <a href="bikes.html">bikes</a>
+              <a href="Feedback.html">Feedback</a>
+            </div>
+          </div>
+      
+    </div>
+    <div class="gap">
+
+    </div>
+    <div class="b2">
+      <p style="position: absolute; margin-left:50%; width:600px; margin-bottom:12%;" class="wow fadeInRight;">A car is a type of vehicle that is designed for road transportation.
+        Cars are powered by an internal combustion engine or an electric motor, which provides the power to move the vehicle.
+        The earliest cars were invented in the late 19th century and were powered by steam engines.
+        Modern cars are made from a variety of materials, including steel, aluminium, plastic, and composite materials.
+        Cars are typically equipped with a variety of safety features, such as seat belts, airbags, and traction control, to help protect passengers in the event of a collision.
+        Cars are also equipped with various technologies, such as navigation systems and infotainment systems, to enhance the driving experience.
+        There are many different types of cars, including sedans, hatchbacks, SUVs, and sports cars.
+        Cars can be fueled by gasoline, diesel, or electricity.
+        The cost of owning and operating a car can vary greatly depending on factors such as the make and model of the car, the cost of fuel, and the cost of maintenance and repairs.
+        Cars are an important part of modern society and are used by individuals and businesses alike for transportation, commerce, and leisure
+        </p>
+        <img src="41.jpg" width="400" style="position: absolute; margin-left:20%;" class="wow fadeInLeft;">
+    </div>
+    <div class="gap">
+
+    </div>
+    
+    <div class="b3">
+     <div class="f1"  style="position:absolute;margin-left:30%; background-color:transparent; width:500px; height:600px; opacity: 0.9;
+     margin-top:20px;">
+      <form class="f2">
+        <input type="text" placeholder="username" class="user">
+        <input type="password" placeholder="password" class="pass">
+        <button class="btn">submit</button>
+      </form>
+     </div>
+    </div>
+    
+</body>
+</html>
